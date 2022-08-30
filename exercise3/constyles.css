@@ -1,0 +1,211 @@
+html{
+    margin-left: 49px;
+    margin-right: 49px;
+}
+/* header */
+header{
+    position: relative;
+    top: -4px;
+    background-color: aliceblue;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: fixed;
+    z-index: 40;
+}
+.ho{
+    font-size: 14.9px;
+    color: rgb(226, 128, 43);
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    margin-left: 585px;
+    list-style: none;
+}
+.normal-link{
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(55, 110, 199);
+}
+nav li{
+    display: inline-block;
+    margin: 4px;
+}
+.ho::after{
+    content:"";
+    justify-items: center;
+    display: block;
+    background-color: rgb(165, 65, 42);
+    width: auto;
+    height: 4px;
+    border-radius: 10px;
+}
+
+.normal-link:hover{
+    font-size:14.2px;
+    color: rgb(182, 114, 31);
+}
+.reserve{
+    color: rgb(19, 4, 150);
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(182, 101, 31);
+    padding: 6px;
+    margin-left: 14px;
+    border-radius: 10px;
+}
+.reserve:hover{
+    color: rgb(27, 3, 242);
+    border-radius: 8px;
+    background-color: rgb(182, 107, 31);
+    font-size: 14.4px;
+}
+
+/* section book a table now */
+.con-img{
+    position: relative;
+    height: 490px;
+    z-index: -10;
+ }
+ .con-img img{
+    width: 99.2%;
+    height:100% ;
+}
+.con-alpha{
+    margin-top: -630px;
+    margin-right: -4px;
+    height: 630px; 
+    width: 99.2%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.book-a-table{
+    height: 490px; 
+    width: 100%;
+    background-size: cover;
+}
+.book-a-table .text{
+    width: 200px;
+    position: relative;
+    top: -170px;
+    left: 50px;
+}
+.book-a-table  h2{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 70px;
+    
+ }  
+ .gps{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+ }
+ .gps img{
+    height:100% ;
+    width: 100%; 
+ }
+.info-contact{
+    padding-left: 200px;
+    padding-right: 200px;
+    display: grid;
+    grid-template-columns: auto 400px;
+    grid-template-rows: 300px;
+    background-color: rgba(0, 0, 0, 0.043);
+    border-radius: 9px;
+}
+.info-contact h1{
+    color: rgb(19, 86, 86);
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+.info-contact .leave input{
+    width: 280px;
+    padding: 4px;
+    margin-bottom: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.662);
+    border-radius: 4px;
+}
+.info-contact .leave .sub{
+    width: 580px;
+}
+.message{
+    border: 2px dotted rgb(0, 0, 0);
+    border-radius: 6px;
+}
+.info-contact .leave button{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: -130px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 17px;
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    color: white;
+    background-color: rgba(226, 119, 43, 0.923);
+    font-weight: 900;
+}
+.info-contact .leave button:hover{
+    border-radius: 3px;
+    font-size: 17.4px;
+    background-color: rgb(226, 119, 43);
+}
+.info-contact .touch{
+    border-left: 2px solid rgba(0, 0, 0, 0.31);
+}
+.info-contact .touch p{
+    margin-left: 40px;
+    font-size: 17px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+.info-contact .touch img{
+    float: left;
+}
+/* FOOTER */
+footer{
+    padding-left:48px ;
+    padding-right: 100px;
+    margin-top: 60px;
+    height: 249px;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.922);
+    display: grid;
+    grid-template-columns: 300px 200px 200px auto 180px;
+    
+    border-radius: 6px;
+}
+footer .logo{
+   margin-left: 80px;
+}
+footer .links{
+   font-size: 30px; 
+}
+footer form p{
+    color: aliceblue;
+}
+footer form input{
+    font-size: 24px;
+}
+footer form button{
+    cursor: pointer;
+    padding: 3px;
+    padding-top: 11px;
+    background-color: rgb(96, 49, 5);
+    border: none;
+}
+.icons{
+    color: aliceblue;
+    align-self: flex-end;
+    justify-self: end;
+    margin-bottom: 30px;
+}

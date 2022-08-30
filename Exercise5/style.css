@@ -1,0 +1,115 @@
+.myactive{
+    color: white;
+    font-weight: bold;
+    background-color:rgb(237, 28, 36);
+    border-radius: 4px;
+    margin-top: 0.2rem;
+    height: 102%;
+    
+}
+a:hover{
+    font-size: 16.3px;
+}
+.mya a:hover{
+    font-size: 12.2px;
+}
+.showcase{
+    margin-top: 7rem;
+}
+.mynav{
+    position: relative;
+    top: 0rem;
+    font-weight: bold;
+}
+.penactive::after{
+    display: block;
+    content:"";
+    height: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+.head-link{
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+    margin: 3px;
+    background-color:rgb(237, 28, 36);
+    border-radius: 10px;
+}
+.penheader{
+    min-height: 4.5rem;
+    max-height: 8.3rem; 
+}
+.loremw{
+    width: 50%;
+}
+.mybor{
+    border-top: 2px solid rgba(0, 0, 0, 0.223);
+}
+.sec{
+    height:17rem;
+}
+.needloan{
+    position: relative;
+    top: -5rem;
+}
+@media(min-width:576px) {
+    .showcase{
+        margin-top: 9rem;
+    }
+    .myactive{
+        margin-top: 0rem;
+    }
+    .mybor{
+        border: none;
+        border-left:2px solid rgba(0, 0, 0, 0.223) ;
+    }
+    .sec{
+        height:30rem;
+    }
+}
+@media(min-width:804px){
+    .needloan{
+        padding-left: 6rem;
+        padding-right:6rem;
+    }
+}
+@media(min-width:992px) {
+    .showcase{
+        margin-top: 7rem;
+    }
+    .mynav{
+        position: relative;
+        top:0.8rem;
+    }
+    .myactive::after{
+        position: relative;
+        display: block;
+        content:"";
+       
+       height: 0.6rem;
+    } 
+    .penheader{
+        height: 4.5rem;
+    }
+    .gdimg{
+        position:relative;
+        height: 104%;
+        width: 100%;
+    }
+    .loremw{
+        width: 100%;
+    }
+   
+}
+#mycollapse{
+    overflow: hidden;
+    height: 0px;
+    transition:0.4s;
+}
+.mysf{
+    font-size: 11px;
+}
+

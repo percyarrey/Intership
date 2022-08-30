@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head-img{
+    height: 80vw;
+    max-height: 800px;
+}
+.head-text{
+    position: absolute;
+    height: 70vw;
+    max-height: 800px;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 34, 255, 0.053);
+}
+.myexpand{
+        flex-basis: 100%;
+        flex-grow: 1;
+}
+
+@media(min-width:992px){
+    .myexpand{
+        display: none;
+    }
+    .head-img{
+        height: 36vw;
+        max-height: 800px;
+    }
+}
+.mycard{
+    position: relative;
+    min-width: 19rem;
+    max-width: 20rem;
+}
+.cardcontainer{
+    transition: 0.6s ease-out;
+    position: relative;
+    display: flex;
+    column-gap: 20px;
+    
+}
+.cardoverflow{
+    display: flex;
+    column-gap: 20px;
+    width: 70rem;
+    overflow: hidden;
+}
+@media (max-width:70rem) {
+    .cardoverflow{
+        width: 100%;
+    }
+}
+

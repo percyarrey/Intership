@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+      <SECtion>
+        <div class=" head-img">
+          <img src="images/img.png" width="100%" height="120%" alt="">
+        </div>
+        <div class="head-text p-1">
+          <!-- NAVIGATION 1 -->
+          <nav class="navbar navbar-expand-lg navbar-dark  mt-1 ">
+            <div class="container-lg">
+              <a href="#" class="navbar-brand fw-bold fs-4">LEARN</a>
+              <div class=" d-none d-lg-block ms-auto">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">COURSES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">TUTORIALS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">FEATURES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">PRICING</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">ABOUT</a>
+                  </li>
+                </ul>
+              </div>
+            <div style="display:flex; ">
+                <a href="#" class="nav-link text-light fw-bold">LOG IN</a>
+                <a href="#" class="nav-link text-primary border fw-bold">JOIN FOR FREE</a>
+          </div>     
+          </nav>
+          <!-- NAVIGATION 2 -->
+          <nav class="navbar navbar-expand-lg navbar-dark container-lg ">
+            <button class="navbar-toggler" type="button" style="background-color:rgba(13, 5, 95, 0.488); border: 2px solid rgba(0, 0, 0, 0.477);" data-bs-toggle="collapse" data-bs-target="#navmenu">
+               <span class="navbar-toggler-icon " ></span>
+            </button>
+            <div class="collapse myexpand" id="navmenu">
+              <ul class="navbar-nav ms-auto" style="background-color: rgba(4, 4, 68, 0.066); border-radius: 10px;border:1px solid rgba(4, 4, 68, 0.121);">
+                <li class="nav-item" style="border-bottom:1px solid rgba(4, 4, 68, 0.121);">
+                  <a href="#" class="nav-link">COURSES</a>
+                </li>
+                <li class="nav-item" style="border-bottom:1px solid rgba(4, 4, 68, 0.121);">
+                  <a href="#" class="nav-link">TUTORIALS</a>
+                </li>
+                <li class="nav-item" style="border-bottom:1px solid rgba(4, 4, 68, 0.121);">
+                  <a href="#" class="nav-link">FEATURES</a>
+                </li>
+                <li class="nav-item" style="border-bottom:1px solid rgba(4, 4, 68, 0.121);">
+                  <a href="#" class="nav-link">PRICING</a>
+                </li>
+                <li class="nav-item" style="border-bottom:1px solid rgba(4, 4, 68, 0.121);">
+                  <a href="#" class="nav-link">ABOUT</a>
+                </li>
+              </ul>
+          </div>
+          </nav>
+          <!-- Text -->
+          <div style="padding:3vw;padding-top: 4vw;">
+            <div class="row">
+            <div class="col-12 col-md-8 col-lg-8">
+              <h2>Learn at your own pace and time.</h2>
+              <p> adipisicing elit. Saepe porro laboriosam unde.</p>
+              <div class="row g-1">
+                <div class="col-md-10 col-12">
+                  <input type="search"  style="width:100%; height: 100%; border-radius: 6px;" placeholder="    What would you learn">
+                </div>
+                <div class="col-md-2 col-12">
+                  <button class="btn bg-primary" style="width:100%;">Search</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4">
+            </div>
+          </div>
+          </div>
+          
+        </div>
+      </SECtion>
+    <!--numbers -->
+      <div class="row container mx-auto mt-3" >
+        <div class="col-6 col-sm-3 col-md-3 col-lg-3" style="border-right: 2px dotted rgb(0, 0, 0);">
+          <h3  class="text-info">20000</h3>
+          <p>Couses Created</p>
+        </div>
+        <div class="col-6 col-sm-3 col-md-3 col-lg-3" style="border-right: 2px dotted rgb(0, 0, 0);">
+          <h3  class="text-info">20000</h3>
+          <p>Couses Created</p>
+        </div>
+        <div class="col-6 col-sm-3 col-md-3 col-lg-3" style="border-right: 2px dotted rgb(0, 0, 0);">
+          <h3  class="text-info">20000</h3>
+          <p>Couses Created</p>
+        </div>
+        <div class="col-6 col-sm-3 col-md-3 col-lg-3" style="border-right: 2px dotted rgb(0, 0, 0);">
+          <h3  class="text-info">20000</h3>
+          <p>Couses Created</p>
+        </div>
+      </div>
+    <!-- cards -->
+    <div class="d-flex justify-content-between">
+    <h1 class="text-info px-4 ">Recommended Courses</h1>
+      <div style="z-index: 100;">
+        <button class="btn btn-light text-primary " id="btnleft" type="button" onclick="slide(-1)">
+          <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+          </svg>
+        </button>
+        <button class="btn btn-light text-primary" id="btnright" type="button" onclick="slide(1)">
+          <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+          </svg>
+        </button>
+      </div>
+    </div>  
+    <section class="d-flex justify-content-center mt-5">
+        <div class="cardoverflow" id="myoverflow">
+          <div class="cardcontainer" id="mycards">
+          <div class="mycard shadow" style="background-color: #4f4b4b0f;">
+            <div class="cardimg" style="height: 10rem; ">
+              <img src="images/Rectangle 276.png" height="100%" width="100%" alt="">
+            </div>
+            <div class="p-2">
+              <h2 class="text-primary">OHDA accounting and application in real life</h2>
+            </div>
+          </div>
+          <div class="mycard shadow" style="background-color: #4f4b4b0f;">
+            <div class="cardimg" style="height: 10rem; ">
+              <img src="images/Rectangle 279.png" height="100%" width="100%" alt="">
+            </div>
+            <div class="p-2">
+              <h2 class="text-primary">OHDA accounting and application in real life</h2>
+            </div>
+          </div>
+          <div class="mycard shadow" style="background-color: #4f4b4b0f;">
+            <div class="cardimg" style="height: 10rem; ">
+              <img src="images/Rectangle 276.png" height="100%" width="100%" alt="">
+            </div>
+            <div class="p-2">
+              <h2 class="text-primary">OHDA accounting and application in real life</h2>
+            </div>
+          </div>
+          <div class="mycard shadow" style="background-color: #4f4b4b0f;">
+            <div class="cardimg" style="height: 10rem; ">
+              <img src="images/Rectangle 282.png" height="100%" width="100%" alt="">
+            </div>
+            <div class="p-2">
+              <h2 class="text-primary">OHDA accounting and application in real life</h2>
+            </div>
+          </div>
+          <div class="mycard shadow" style="background-color: #4f4b4b0f;">
+            <div class="cardimg" style="height: 10rem; ">
+              <img src="images/Rectangle 276.png" height="100%" width="100%" alt="">
+            </div>
+            <div class="p-2">
+              <h2 class="text-primary">OHDA accounting and application in real life</h2>
+            </div>
+          </div>
+          <div class="mycard shadow" style="background-color: #4f4b4b0f;">
+            <div class="cardimg" style="height: 10rem; ">
+              <img src="images/Rectangle 306.png" height="100%" width="100%" alt="">
+            </div>
+            <div class="p-2">
+              <h2 class="text-primary">OHDA accounting and application in real life</h2>
+            </div>
+          </div>
+          <div class="mycard shadow" style="background-color: #4f4b4b0f;">
+            <div class="cardimg" style="height: 10rem; ">
+              <img src="images/Rectangle 276.png" height="100%" width="100%" alt="">
+            </div>
+            <div class="p-2">
+              <h2 class="text-primary">OHDA accounting and application in real life</h2>
+            </div>
+          </div>
+          <div class="mycard shadow" style="background-color: #4f4b4b0f;">
+            <div class="cardimg" style="height: 10rem; ">
+              <img src="images/Rectangle 276.png" height="100%" width="100%" alt="">
+            </div>
+            <div class="p-2">
+              <h2 class="text-primary">OHDA accounting and application in real life</h2>
+            </div>
+          </div>
+          <div class="mycard shadow" style="background-color: #4f4b4b0f;">
+            <div class="cardimg" style="height: 10rem; ">
+              <img src="images/Rectangle 276.png" height="100%" width="100%" alt="">
+            </div>
+            <div class="p-2">
+              <h2 class="text-primary">OHDA accounting and application in real life</h2>
+            </div>
+          </div>
+          </div>
+        </div>     
+    </section>
+    <!-- Categorise -->
+    <section class="container">
+      <h1 class="text-primary mt-5">Top Categories</h1>
+      <div class="container bg-light">
+        <div class="row g-4 mt-2 p-4">
+          <div class="col-12 col-md-6 col-lg-3 ">
+            <div class="d-flex justify-content-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-bricks" viewBox="0 0 16 16">
+                <path d="M0 .5A.5.5 0 0 1 .5 0h15a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5H2v-2H.5a.5.5 0 0 1-.5-.5v-3A.5.5 0 0 1 .5 6H2V4H.5a.5.5 0 0 1-.5-.5v-3zM3 4v2h4.5V4H3zm5.5 0v2H13V4H8.5zM3 10v2h4.5v-2H3zm5.5 0v2H13v-2H8.5zM1 1v2h3.5V1H1zm4.5 0v2h5V1h-5zm6 0v2H15V1h-3.5zM1 7v2h3.5V7H1zm4.5 0v2h5V7h-5zm6 0v2H15V7h-3.5zM1 13v2h3.5v-2H1zm4.5 0v2h5v-2h-5zm6 0v2H15v-2h-3.5z"/>
+              </svg>
+            </div>
+            <h4 class="tect-info text-center text-primary">PRODUCTIVITY</h4>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="d-flex justify-content-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-diagram-3-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6v1H14a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 2 7h5.5V6A1.5 1.5 0 0 1 6 4.5v-1zm-6 8A1.5 1.5 0 0 1 1.5 10h1A1.5 1.5 0 0 1 4 11.5v1A1.5 1.5 0 0 1 2.5 14h-1A1.5 1.5 0 0 1 0 12.5v-1zm6 0A1.5 1.5 0 0 1 7.5 10h1a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5v-1zm6 0a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1z"/>
+              </svg>
+            </div>
+            <h4 class="tect-info text-center text-primary">DEVELOPEMENT</h4>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="d-flex justify-content-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-building" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"/>
+                <path d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z"/>
+              </svg>
+            </div>
+            <h4 class="tect-info text-center text-primary">GRAPHIC DESIGN</h4>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="d-flex justify-content-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+                <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+              </svg>
+            </div>
+            <h4 class="tect-info text-center text-primary">SOFTWARE DEVELOPEMENT</h4>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="d-flex justify-content-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="46" fill="currentColor" class="bi bi-window-fullscreen" viewBox="0 0 16 16">
+                <path d="M3 3.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm1.5 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Z"/>
+                <path d="M.5 1a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h15a.5.5 0 0 0 .5-.5v-13a.5.5 0 0 0-.5-.5H.5ZM1 5V2h14v3H1Zm0 1h14v8H1V6Z"/>
+              </svg>
+            </div>
+            <h4 class="tect-info text-center text-primary">UI DESIGN</h4>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="d-flex justify-content-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+                <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+              </svg>
+            </div>
+            <h4 class="tect-info text-center text-primary">BUSSINESS</h4>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="d-flex justify-content-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-coin" viewBox="0 0 16 16">
+                <path d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z"/>
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/>
+              </svg>
+            </div>
+            <h4 class="tect-info text-center text-primary">MARKETING</h4>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="d-flex justify-content-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-clipboard-data" viewBox="0 0 16 16">
+                <path d="M4 11a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1zm6-4a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0V7zM7 9a1 1 0 0 1 2 0v3a1 1 0 1 1-2 0V9z"/>
+                <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+                <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+              </svg>
+            </div>
+            <h4 class="tect-info text-center text-primary">DEVELOPEMENT</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  HAPP -->
+    <div class="container mt-4" >
+      <div class="row">
+        <div class="col-12 col-lg-8">
+          <img src="images/Screenshot (1).png" class="h-100 w-100" alt="">
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="mt-5">
+            <p class="lead text-muted fw-bold">UI/UX DESIGN</p>
+            <h1 class="text-primary mt-4 fw-bold">How to design a responsive and elegant multipurpose E commerce website</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit illum at id sunt ea doloremque molestiae ipsam esse minus ex omnis recusandae fugiat maiores, atque vero veritatis iure eius quae.</p>
+            <button class="btn ms-2 px-5 btn-primary">START NOW</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- courses -->
+    <div class="d-flex justify-content-between">
+        <h1 class="text-info px-4 ">Recommended Courses</h1>
+          <div style="z-index: 100;">
+            <button class="btn btn-light text-primary ">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+              </svg>
+            </button>
+            <button class="btn btn-light text-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+              </svg>
+            </button>
+          </div>
+    </div> 
+    <section class="d-flex justify-content-center mt-5">
+          <div class="cardoverflow" id="myoverflow">
+            <div class="cardcontainer text-primary" id="mycards">
+            <div class="mycard card shadow" style="background-color: #4f4b4b0f;">
+              <div class="cardimg card-img-top" style="height: 10rem; ">
+                <img src="images/Rectangle 276.png" height="100%" width="100%" alt="">
+              </div>
+              <div class="p-2">
+                <h2 class="text-primary">Fundamentals of ux/ui for bigenners essentials</h2>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                <div>8h 21min</div>
+                <div>13 students</div>
+              </div>
+            </div>
+            <div class="mycard card shadow" style="background-color: #4f4b4b0f;">
+              <div class="cardimg card-img-top" style="height: 10rem; ">
+                <img src="images/Rectangle 276.png" height="100%" width="100%" alt="">
+              </div>
+              <div class="p-2">
+                <h2 class="text-primary">Fundamentals of ux/ui for bigenners essentials</h2>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                <div>8h 21min</div>
+                <div>13 students</div>
+              </div>
+            </div> 
+            <div class="mycard card shadow" style="background-color: #4f4b4b0f;">
+              <div class="cardimg card-img-top" style="height: 10rem; ">
+                <img src="images/Rectangle 276.png" height="100%" width="100%" alt="">
+              </div>
+              <div class="p-2">
+                <h2 class="text-primary">Fundamentals of ux/ui for bigenners essentials</h2>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                <div>8h 21min</div>
+                <div>13 students</div>
+              </div>
+            </div> 
+            <div class="mycard card shadow" style="background-color: #4f4b4b0f;">
+              <div class="cardimg card-img-top" style="height: 10rem; ">
+                <img src="images/Rectangle 276.png" height="100%" width="100%" alt="">
+              </div>
+              <div class="p-2">
+                <h2 class="text-primary">Fundamentals of ux/ui for bigenners essentials</h2>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                <div>8h 21min</div>
+                <div>13 students</div>
+              </div>
+            </div> 
+            <div class="mycard card shadow" style="background-color: #4f4b4b0f;">
+              <div class="cardimg card-img-top" style="height: 10rem; ">
+                <img src="images/Rectangle 276.png" height="100%" width="100%" alt="">
+              </div>
+              <div class="p-2">
+                <h2 class="text-primary">Fundamentals of ux/ui for bigenners essentials</h2>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                <div>8h 21min</div>
+                <div>13 students</div>
+              </div>
+            </div> 
+            <div class="mycard card shadow" style="background-color: #4f4b4b0f;">
+              <div class="cardimg card-img-top" style="height: 10rem; ">
+                <img src="images/Rectangle 276.png" height="100%" width="100%" alt="">
+              </div>
+              <div class="p-2">
+                <h2 class="text-primary">Fundamentals of ux/ui for bigenners essentials</h2>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                <div>8h 21min</div>
+                <div>13 students</div>
+              </div>
+            </div> 
+            <div class="mycard card shadow" style="background-color: #4f4b4b0f;">
+              <div class="cardimg card-img-top" style="height: 10rem; ">
+                <img src="images/Rectangle 276.png" height="100%" width="100%" alt="">
+              </div>
+              <div class="p-2">
+                <h2 class="text-primary">Fundamentals of ux/ui for bigenners essentials</h2>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                <div>8h 21min</div>
+                <div>13 students</div>
+              </div>
+            </div>  
+            </div>
+          </div>     
+    </section>
+    <!-- COMMENT -->
+    <div class="container-fluid row"
+    style="position: relative;
+    left: -12rem;">
+      <div class="col-6 d-none d-lg-block" style="
+       background-image:url(images/Path\ 115.png);
+       background-position: 10rem;
+       background-repeat: no-repeat;
+       background-size: 26rem;
+       
+       ">
+        <div class=" d-flex justify-content-end">
+            <img src="images/testi.png" class="w-50 h-50"  alt="">
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 py-5 px-2 d-none d-lg-block">
+        <div class="d-flex justify-content-between text-primary">
+          <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+            <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"/>
+          </svg></div>
+          <div style="z-index: 100;">
+            <button class="btn btn-light text-primary ">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+              </svg>
+            </button>
+            <button class="btn btn-light text-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet officiis maiores aperiam? Labore rem consequuntur repellendus? Non perferendis omnis rerum consectetur laborum quis numquam modi dicta culpa quod voluptate aliquam voluptates necessitatibus cupiditate fugit maiores iste eius, dolore quos, autem ratione quaerat? Voluptatem odio ipsa nemo repudiandae voluptatum! Necessitatibus, mollitia modi blanditiis accusamus dolores facere similique velit cum optio ipsum.</p>
+        <h4 class="fw-bold mt-4">Kyle Freeman</h4>
+      </div>
+      <div class="col-12 col-lg-6 py-5 px-2 d-block d-lg-none" style="position: relative;
+      left: 12rem;">
+        <div class="d-flex justify-content-between text-primary">
+          <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+            <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"/>
+          </svg></div>
+          <div style="z-index: 100;">
+            <button class="btn btn-light text-primary ">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+              </svg>
+            </button>
+            <button class="btn btn-light text-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet officiis maiores aperiam? Labore rem consequuntur repellendus? Non perferendis omnis rerum consectetur laborum quis numquam modi dicta culpa quod voluptate aliquam voluptates necessitatibus cupiditate fugit maiores iste eius, dolore quos, autem ratione quaerat? Voluptatem odio ipsa nemo repudiandae voluptatum! Necessitatibus, mollitia modi blanditiis accusamus dolores facere similique velit cum optio ipsum.</p>
+        <h4 class="fw-bold mt-4">Kyle Freeman</h4>
+      </div>
+    </div>
+    <footer style="height: 20rem; background-color:#9A9A9A ;"></footer>
+    <script src="school.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js" ></script>
+  </body>
+</html>

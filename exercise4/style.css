@@ -1,0 +1,200 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.myactive{
+    color: rgb(3, 73, 73);
+    font-family:sans-serif;
+}
+.myactive::after{
+    content: '';
+    display: block;
+    background-color: rgb(42, 58, 165);
+    height:3px;
+    border-radius: 10px;
+}
+.navbar-brand{
+    width:16%;
+}
+.navbar-brand img{
+    width:104%;
+    height:104% ;
+}
+@media(max-width:1400px){
+    .nav-top{
+        font-size: 9px;
+    }
+}
+.search{
+    display:flex;
+    justify-content:flex-start;
+    transition: 0.2s;
+}
+.search input{
+    outline: 2px solid rgba(0, 0, 0, 0.148);
+    width: 0px;
+    transition: 0.2s;
+    opacity: 0;
+    border-radius: 7px;
+}
+@media(max-width:768px){
+    .search{
+        justify-content: flex-start;
+        background-color: rgb(34, 0, 255);
+        transition: 0.2s;
+        height: 30px;
+        width: 100%;
+    }
+}
+.mybtn{
+    position: relative;
+    top: 130px;
+    z-index: 1;
+}
+.mybtn button{
+    background-color: rgba(146, 144, 144, 0.132);
+    border-radius: 100px;
+    padding: 6px;
+    border: 3px solid rgba(255, 255, 255, 0.133);
+    color: antiquewhite;
+}
+.mybtn button:hover{
+    font-size: 16.3px;
+}
+.started{
+    margin-top: 2px;
+    border-radius: 4px;
+    width: 100%;
+    height: 400px;
+    background-image: url(images/image\ \ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.img1{
+    position: relative;
+    background-color: rgba(46, 24, 167, 0.532);
+    top: -664px;
+    width: 100%;
+    height: 1000px;
+}
+.img2{
+    position: relative;
+    background-color: rgba(9, 214, 255, 0.362);
+    width: 100%;
+    height: 2000px;
+    top: -1964px;
+    text-align: center;
+}
+.started h4{
+    position: relative;
+    top: 100px;
+    color: darkblue;
+    text-transform: uppercase;
+    font-size: 100px;
+}
+.img3{
+    background-color: rgba(14, 155, 85, 0.215);
+    position: relative;
+    width: 100%;
+    height: 3000px;
+    top: -4000px;
+}
+.img1 img{
+    width:100% ;
+    height: 100%;
+}
+@media(min-width:900px){
+    .started{
+        height: 500px;
+    }
+    .img1{
+        top: -300px;
+        width: 100%;
+        height: 3000px;
+    }
+    .img2{
+        top: -5039px;
+        width: 100%;
+        height: 3000px;
+    }
+    .img3{
+        top: -7000px;
+        width: 100%;
+        height: 3000px;
+    }
+}
+.card-body button:hover{
+    font-size: 16.4px;
+}
+.mycard{
+    border-radius: 0px;
+    padding: 0px; 
+    border-top: 0px solid  blue;
+    transition: 0.1s;
+}
+.link-anim{
+    overflow: hidden;
+    height: 31px;
+    width: 100px;
+    background-color: rgba(0, 255, 255, 0.434);
+    transition: 0.1s;
+}
+.link-anim:hover{
+    width: 139px;
+    font-size: 17px;
+}
+.mycard a{
+    text-decoration: none;
+    border-radius: 3px;
+}
+.mycard:hover{
+    border-top: 14px solid  blue;
+    border-radius: 24px;
+    padding: 6px;
+}
+.busin{
+    background-image: url(images/image\ \ \(27\).png);
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.rat{
+    margin-left: 6rem;
+    padding-left: 100px;
+    padding-right: 40px;
+    background: rgb(6, 180, 189);
+}
+.rat:hover{
+    font-size: 16.9px; 
+    background: rgba(1, 148, 155, 0.599)
+}
+.ovfooter{
+    padding-left: 100px;
+    padding-right: 140px;
+}
+.myfooter{
+    padding-right: 3px;
+}
+@media(max-width:992px){
+    .myfooter{
+        padding-right:0px;
+    }
+    .ovfooter{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media(max-width:768px){
+    .myfooter{
+        padding-right:0px;
+    }
+}
+button:hover{
+    font-size: 16.7px;
+}
+
+
